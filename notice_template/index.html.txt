@@ -13,6 +13,7 @@
     <script src="jquery-ui.min.js"></script>
     <script src="notice_main.js"></script>
     <div id="about">
+Test test test
         <a href="#">Submit an Entry</a>
     </div>
     <br>
