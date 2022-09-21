@@ -1,7 +1,7 @@
 const items = ['VTB_solicit',]
 
 const references = {
-    'VTB_solicit': ['notice_images/VTB_solicit.jpg', 'notice_documents/VTB_solicit.pdf'],
+    'VTB_solicit': ['notice_images/VTB_solicit.png', 'notice_documents/VTB_solicit.pdf'],
 }
 
 const credits = {
