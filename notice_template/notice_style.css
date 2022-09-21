@@ -60,8 +60,7 @@ body {
 #about {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    padding: 10px;
-    background-color: var(--darkwhite);
+    padding: 0px;
     max-width: fit-content;
     /* border-radius: 5px; */
 }
@@ -77,14 +76,18 @@ a:hover {
 #details {
     font-family: 'Times New Roman', Times, serif;
     background-color: var(--darkwhite);
-    padding: 10px;
+    margin: auto;
+    padding: 30px;
+    max-width: 60%;
+    align: center;
     /* border-radius: 5px; */
-    text-align: center;
+    text-align: left;
 }
 
 #details h3 {
     font-weight: 700;
     font-style: italic;
+
 }
 
 table {
