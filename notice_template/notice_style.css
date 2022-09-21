@@ -11,13 +11,13 @@ body {
 }
 
 .preview_item {
-    max-width: 20em;
+    max-width: 15em;
     position: absolute;
     text-align: left;
 }
 
 .preview_image {
-    max-width: 20em;
+    max-width: 15em;
     position: absolute;
     box-shadow: 5px 5px 25px var(--preview-shadow);
 }
