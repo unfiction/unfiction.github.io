@@ -1,11 +1,11 @@
 const items = ['VTB_solicit',]
 
 const references = {
-    'VTB_solicit': ['notice_images/VTB_solicit.png', 'notice_documents/VTB_solicit.pdf'],
+    'VTB_solicit': ['notice_images/VTB_solicit.png', 'notice_documents/VTB_solicit.pdf'], 'MOD_flyer': ['notice_images/MOD_thumb.png', 'notice_documents/MOD_fluer.jpg'],
 }
 
 const credits = {
-    'VTB_solicit': 'Vehemence Travel Bureau',
+    'VTB_solicit': 'Vehemence Travel Bureau', 'MOD_flyer': 'twitter.com/MemoirsOfDeath',
 }
 
 function make_item(val) {
