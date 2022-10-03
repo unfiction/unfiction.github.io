@@ -1,11 +1,11 @@
-const items = ['VTB_solicit','MOD_flyer',]
+const items = ['VTB_solicit','MOD_flyer','UTS_poster']
 
 const references = {
-    'VTB_solicit': ['notice_images/VTB_solicit.png', 'notice_documents/VTB_solicit.pdf'],'MOD_flyer': ['notice_images/MOD_thumb.png', 'notice_documents/MOD_flyer.jpg'],
+    'VTB_solicit': ['notice_images/VTB_solicit.png', 'notice_documents/VTB_solicit.pdf'],'MOD_flyer': ['notice_images/MOD_thumb.png', 'notice_documents/MOD_flyer.jpg'],'UTS_poster': ['notice_images/axel-thumb.jpg', 'notice_documents/axel-open2.jpg'],
 }
 
 const credits = {
-    'VTB_solicit': 'Vehemence Travel Bureau','MOD_flyer': 'twitter.com/MemoirsOfDeath',
+    'VTB_solicit': 'Vehemence Travel Bureau','MOD_flyer': 'twitter.com/MemoirsOfDeath','UTS_poster': 'Under the Surface',
 }
 
 function make_item(val) {
