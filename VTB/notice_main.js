@@ -1,11 +1,11 @@
-const items = ['VTB_solicit','MOD_flyer','UTS_poster']
+const items = ['VTB_solicit','MOD_flyer','UTS_poster','FTAA_postcard',]
 
 const references = {
-    'VTB_solicit': ['notice_images/VTB_solicit.png', 'notice_documents/VTB_solicit.pdf'],'MOD_flyer': ['notice_images/MOD_thumb.png', 'notice_documents/MOD_flyer.jpg'],'UTS_poster': ['notice_documents/axel-open2.jpg', 'notice_documents/axel-open2.jpg'],
+    'VTB_solicit': ['notice_images/VTB_solicit.png', 'notice_documents/VTB_solicit.pdf'],'MOD_flyer': ['notice_images/MOD_thumb.png', 'notice_documents/MOD_flyer.jpg'],'UTS_poster': ['notice_documents/axel-open2.jpg', 'notice_documents/axel-open2.jpg'],'FTAA_postcard': ['notice_images/FTAA_Postcard.jpg', 'notice_documents/FTAA_Postcard.pdf'],
 }
 
 const credits = {
-    'VTB_solicit': 'Vehemence Travel Bureau','MOD_flyer': 'twitter.com/MemoirsOfDeath','UTS_poster': 'Under the Surface',
+    'VTB_solicit': 'Vehemence Travel Bureau','MOD_flyer': 'twitter.com/MemoirsOfDeath','UTS_poster': 'Under the Surface','FTAA_postcard': 'FTAA Archive',
 }
 
 function make_item(val) {
