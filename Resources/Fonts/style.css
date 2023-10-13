@@ -17,7 +17,7 @@ body {
 
 
 #details {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     background-color: var(--darkwhite);
     margin: auto;
     padding: 30px;
@@ -28,11 +28,11 @@ body {
 }
 
 #details h3 {
-    font-family: 'printshop'
+    font-family: 'printshop';
 
 }
 
 #details h2 {
-    font-family: 'printshop'
+    font-family: 'printshop';
 
 }
