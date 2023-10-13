@@ -1,25 +1,116 @@
 :root {
-    --darkwhite: #f0f8ffdd;
+    --darkwhite: #fff8f0dd;
 }
 
 body {
     background-size: cover;
 }
 
+@font-face {
+    font-family: 'Inter'; /*a name to be used later*/
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); /*URL to font*/
+}
+
 
 @font-face {
-    font-family: 'printshop'; /*a name to be used later*/
-    src: url('/TTFs/SWBatuuPrintshop.woff'); /*URL to font*/
+    font-family: 'HGBody'; /*a name to be used later*/
+    src: url('OTFs/BatuuanHighGalacticBody.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'BatuuPrintshop'; /*a name to be used later*/
+    src: url('OTFs/Batuu Printshop.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'BatuuBesh'; /*a name to be used later*/
+    src: url('OTFs/BatuuBesh (Canon).otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'BatuuChalkboard'; /*a name to be used later*/
+    src: url('OTFs/BatuuChalkboard.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'LenkaMok'; /*a name to be used later*/
+    src: url('OTFs/LenkaMokPenReactive.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'OhnakaHand'; /*a name to be used later*/
+    src: url('OTFs/Ohnaka Hand.otf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'SpireGlyphs'; /*a name to be used later*/
+    src: url('OTFs/SpireGlyphs.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'HGInfo'; /*a name to be used later*/
+    src: url('OTFs/BatuuanHighGalacticInfo.otf'); /*URL to font*/
 }
 
 
 
-h3 {
-    font-family: 'printshop';
+
+
+#details {
+    font-family: 'Inter';
+    background-color: var(--darkwhite);
+    margin: auto;
+    padding: 30px;
+    max-width: 50%;
+    align: center;
+    /* border-radius: 5px; */
+    text-align: left;
+}
+
+
+
+#details h3 {
+    font-family: 'HGBody';
 
 }
 
-h2 {
-    font-family: 'printshop';
+#details h2 {
+    font-family: 'HGBody';
 
 }
+
+
+.batuubesh {
+    font-family: 'BatuuBesh';
+}
+
+.batuuprintshop {
+    font-family: 'BatuuPrintshop';
+}
+
+.batuuchalkboard {
+    font-family: 'BatuuChalkboard';
+}
+
+.lenkamok {
+    font-family: 'LenkaMok';
+}
+
+.ohnakahand {
+    font-family: 'OhnakaHand';
+}
+
+.spireglyphs {
+    font-family: 'SpireGlyphs';
+}
+
+.hgbody {
+    font-family: 'HGBody';
+}
+
+.hgbody {
+    font-family: 'HGInfo';
+}
+
+
