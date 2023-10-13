@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: 'printshop'; /*a name to be used later*/
-    src: url('https://unfiction.github.io/Resources/Fonts/OTFs/Batuu%20Printshop.otf'); /*URL to font*/
+    src: url('/TTFs/SWBatuuPrintshop.ttf'); /*URL to font*/
 }
 
 
