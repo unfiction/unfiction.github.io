@@ -6,7 +6,6 @@ body {
     background-size: cover;
 }
 
-
 @font-face {
    font-family: printshop;
    src: url(OTFs/Batuu Printshop.otf);
@@ -17,7 +16,16 @@ body {
 }
 
 
-
+#details {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--darkwhite);
+    margin: auto;
+    padding: 30px;
+    max-width: 50%;
+    align: center;
+    /* border-radius: 5px; */
+    text-align: left;
+}
 
 #details h3 {
     font-family: 'printshop'
