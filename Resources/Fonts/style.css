@@ -14,17 +14,6 @@ body {
 
 
 
-#details {
-    font-family: 'Times New Roman';
-    background-color: var(--darkwhite);
-    margin: auto;
-    padding: 30px;
-    max-width: 50%;
-    align: center;
-    /* border-radius: 5px; */
-    text-align: left;
-}
-
 h3 {
     font-family: 'printshop';
 
