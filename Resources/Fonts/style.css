@@ -6,10 +6,6 @@ body {
     background-size: cover;
 }
 
-@font-face {
-   font-family: printshop;
-   src: url(OTFs/Batuu Printshop.otf);
-}
 
 @font-face {
     font-family: 'printshop'; /*a name to be used later*/
