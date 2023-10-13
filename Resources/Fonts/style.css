@@ -68,7 +68,7 @@ body {
     background-color: var(--darkwhite);
     margin: auto;
     padding: 30px;
-    max-width: 50%;
+    max-width: 65%;
     align: center;
     /* border-radius: 5px; */
     text-align: left;
@@ -193,13 +193,8 @@ blockquote {
     font-size: 125%;
     margin: 0px 0px 0px 0px;
     padding: 10px;
-  
-  
 }
-
-div.fontlink {
-  text-align: right;
-font-size: 125%;
-
+  
+larger {
+    font-size: 175%;
 }
-
