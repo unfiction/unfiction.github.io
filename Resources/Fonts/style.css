@@ -11,9 +11,11 @@ body {
    src: url(OTFs/Batuu Printshop.otf);
 }
 
-* {
-   font-family: printshop;
+@font-face {
+    font-family: 'printshop'; /*a name to be used later*/
+    src: url('https://unfiction.github.io/Resources/Fonts/OTFs/Batuu%20Printshop.otf'); /*URL to font*/
 }
+
 
 
 #details {
@@ -27,12 +29,12 @@ body {
     text-align: left;
 }
 
-#details h3 {
+h3 {
     font-family: 'printshop';
 
 }
 
-#details h2 {
+h2 {
     font-family: 'printshop';
 
 }
