@@ -33,6 +33,12 @@ body {
 }
 
 @font-face {
+    font-family: 'BatuuSignPainter'; /*a name to be used later*/
+    src: url('OTFs/BatuuSignPainter.otf'); /*URL to font*/
+}
+
+
+@font-face {
     font-family: 'LenkaMok'; /*a name to be used later*/
     src: url('OTFs/LenkaMokPenReactive.otf'); /*URL to font*/
 }
@@ -89,6 +95,11 @@ body {
     font-family: 'BatuuPrintshop';
 }
 
+.batuusignpainter {
+    font-family: 'BatuuSignPainter';
+}
+
+
 .batuuchalkboard {
     font-family: 'BatuuChalkboard';
 }
@@ -109,8 +120,68 @@ body {
     font-family: 'HGBody';
 }
 
-.hgbody {
+.hginfo {
     font-family: 'HGInfo';
 }
 
+
+
+
+
+
+
+.batuubeshfoo {
+    font-family: 'BatuuBesh';
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.batuuprintshopfoo {
+    font-family: 'BatuuPrintshop';
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.batuusignpainterfoo {
+    font-family: 'BatuuSignPainter';
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.batuuchalkboardfoo {
+    font-family: 'BatuuChalkboard';
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.lenkamokfoo {
+    font-family: 'LenkaMok';
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.ohnakahandfoo {
+    font-family: 'OhnakaHand';
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.spireglyphsfoo {
+    font-family: 'SpireGlyphs';
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.hgbodyfoo {
+    font-family: 'HGBody';
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.hginfofoo {
+    font-family: 'HGInfo';
+    color: rgba(0, 0, 0, 0.5);
+
+}
 
