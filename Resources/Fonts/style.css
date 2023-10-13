@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: 'printshop'; /*a name to be used later*/
-    src: url('/TTFs/SWBatuuPrintshop.ttf'); /*URL to font*/
+    src: url('/TTFs/SWBatuuPrintshop.woff'); /*URL to font*/
 }
 
 
