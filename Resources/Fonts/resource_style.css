@@ -1,0 +1,30 @@
+:root {
+    --darkwhite: #f0f8ffdd;
+}
+
+body {
+    background-size: cover;
+}
+
+#details {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--darkwhite);
+    margin: auto;
+    padding: 30px;
+    max-width: 50%;
+    align: center;
+    /* border-radius: 5px; */
+    text-align: left;
+}
+
+#details h3 {
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+#details h2 {
+    font-weight: 700;
+    font-style: italic;
+
+}
