@@ -19,7 +19,7 @@ body {
 
 @font-face {
     font-family: 'BatuuPrintshop'; /*a name to be used later*/
-    src: url('OTFs/Batuu Printshop.otf'); /*URL to font*/
+    src: url('OTFs/BatuuPrintshop.otf'); /*URL to font*/
 }
 
 @font-face {
@@ -138,7 +138,7 @@ font-size: 175%;
 
 .hginfo {
     font-family: 'HGInfo';
-font-size: 175%;
+font-size: 125%;
 
 }
 
@@ -214,5 +214,5 @@ blockquote {
 }
   
 larger {
-    font-size: 175%;
+    font-size: 100%;
 }
