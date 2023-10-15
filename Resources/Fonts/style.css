@@ -82,12 +82,13 @@ font-size:1.5em;
 }
 
 
-head3 {
+#details h2 {
     font-family: 'HGBody';
 font-size:1.5em;
+
 }
 
-#details h2 {
+#details h1 {
     font-family: 'HGBody';
 font-size:1.75em;
 
