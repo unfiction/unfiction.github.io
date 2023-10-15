@@ -1,225 +1,235 @@
-:root {
-    --darkwhite: #fff8f0dd;
-}
-
-body {
-    background-size: cover;
-}
-
-@font-face {
-    font-family: 'Inter'; /*a name to be used later*/
-    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); /*URL to font*/
-}
-
-
-@font-face {
-    font-family: 'HGBody'; /*a name to be used later*/
-    src: url('OTFs/BatuuanHighGalacticBody.otf'); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'BatuuPrintshop'; /*a name to be used later*/
-    src: url('OTFs/BatuuPrintshop.otf'); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'BatuuBesh'; /*a name to be used later*/
-    src: url('OTFs/BatuuBesh (Canon).otf'); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'BatuuChalkboard'; /*a name to be used later*/
-    src: url('OTFs/BatuuChalkboard.otf'); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'BatuuSignPainter'; /*a name to be used later*/
-    src: url('OTFs/BatuuSignPainter.otf'); /*URL to font*/
-}
-
-
-@font-face {
-    font-family: 'LenkaMok'; /*a name to be used later*/
-    src: url('OTFs/LenkaMokPenReactive.otf'); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'OhnakaHand'; /*a name to be used later*/
-    src: url('OTFs/Ohnaka Hand.otf'); /*URL to font*/
-}
-
-
-@font-face {
-    font-family: 'SpireGlyphs'; /*a name to be used later*/
-    src: url('OTFs/SpireGlyphs.otf'); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'HGInfo'; /*a name to be used later*/
-    src: url('OTFs/BatuuanHighGalacticInfo.otf'); /*URL to font*/
-}
-
-
-
-
-
-#details {
-    font-family: 'Inter';
-    background-color: var(--darkwhite);
-    margin: auto;
-    padding: 30px;
-    max-width: 65%;
-    align: center;
-    /* border-radius: 5px; */
-    text-align: left;
-}
-
-
-#details h3 {
-    font-family: 'HGBody';
-font-size:1.5em;
-}
-
-
-#details h2 {
-    font-family: 'HGBody';
-font-size:1.5em;
-
-}
-
-#details h1 {
-    font-family: 'HGBody';
-font-size:1.75em;
-
-}
-
-
-.batuubesh {
-    font-family: 'BatuuBesh';
-font-size:1.75em;
-
-}
-
-.batuuprintshop {
-    font-family: 'BatuuPrintshop';
-font-size:1.75em;
-
-}
-
-.batuusignpainter {
-    font-family: 'BatuuSignPainter';
-font-size:1.75em;
-
-}
-
-
-.batuuchalkboard {
-    font-family: 'BatuuChalkboard';
-font-size:1.75em;
-
-}
-
-.lenkamok {
-    font-family: 'LenkaMok';
-font-size:1.75em;
-
-}
-
-.ohnakahand {
-    font-family: 'OhnakaHand';
-font-size:1.75em;
-
-}
-
-.spireglyphs {
-    font-family: 'SpireGlyphs';
-font-size:1.75em;
-
-}
-
-.hgbody {
-    font-family: 'HGBody';
-font-size:1.75em;
-
-}
-
-.hginfo {
-    font-family: 'HGInfo';
-font-size: 125%;
-
-}
-
-
-
-
-
-
-
-.batuubeshfoo {
-    font-family: 'BatuuBesh';
-    color: rgba(0, 0, 0, 0.5);
-
-}
-
-.batuuprintshopfoo {
-    font-family: 'BatuuPrintshop';
-    color: rgba(0, 0, 0, 0.5);
-
-}
-
-.batuusignpainterfoo {
-    font-family: 'BatuuSignPainter';
-    color: rgba(0, 0, 0, 0.5);
-
-}
-
-
-.batuuchalkboardfoo {
-    font-family: 'BatuuChalkboard';
-    color: rgba(0, 0, 0, 0.5);
-
-}
-
-.lenkamokfoo {
-    font-family: 'LenkaMok';
-    color: rgba(0, 0, 0, 0.5);
-
-}
-
-.ohnakahandfoo {
-    font-family: 'OhnakaHand';
-    color: rgba(0, 0, 0, 0.5);
-
-}
-
-.spireglyphsfoo {
-    font-family: 'SpireGlyphs';
-    color: rgba(0, 0, 0, 0.5);
-
-}
-
-.hgbodyfoo {
-    font-family: 'HGBody';
-    color: rgba(0, 0, 0, 0.5);
-
-}
-
-.hginfofoo {
-    font-family: 'HGInfo';
-    color: rgba(0, 0, 0, 0.5);
-
-}
-
-
-
-blockquote {
-    float: right;
-    width: 30%;
-    font-size: 125%;
-    margin: 0px 0px 0px 0px;
-    padding: 10px;
-}
-  
-larger {
-    font-size:1em;
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 :root \{\
+    --darkwhite: #fff8f0dd;\
+\}\
+\
+body \{\
+    background-size: cover;\
+\}\
+\
+@font-face \{\
+    font-family: 'Inter'; /*a name to be used later*/\
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); /*URL to font*/\
+\}\
+\
+\
+@font-face \{\
+    font-family: 'HGBody'; /*a name to be used later*/\
+    src: url('OTFs/BatuuanHighGalacticBody.otf'); /*URL to font*/\
+\}\
+\
+@font-face \{\
+    font-family: 'BatuuPrintshop'; /*a name to be used later*/\
+    src: url('OTFs/BatuuPrintshop.otf'); /*URL to font*/\
+\}\
+\
+@font-face \{\
+    font-family: 'BatuuBesh'; /*a name to be used later*/\
+    src: url('OTFs/BatuuBesh (Canon).otf'); /*URL to font*/\
+\}\
+\
+@font-face \{\
+    font-family: 'BatuuChalkboard'; /*a name to be used later*/\
+    src: url('OTFs/BatuuChalkboard.otf'); /*URL to font*/\
+\}\
+\
+@font-face \{\
+    font-family: 'BatuuSignPainter'; /*a name to be used later*/\
+    src: url('OTFs/BatuuSignPainter.otf'); /*URL to font*/\
+\}\
+\
+\
+@font-face \{\
+    font-family: 'LenkaMok'; /*a name to be used later*/\
+    src: url('OTFs/LenkaMokPenReactive.otf'); /*URL to font*/\
+\}\
+\
+@font-face \{\
+    font-family: 'OhnakaHand'; /*a name to be used later*/\
+    src: url('OTFs/Ohnaka Hand.otf'); /*URL to font*/\
+\}\
+\
+\
+@font-face \{\
+    font-family: 'SpireGlyphs'; /*a name to be used later*/\
+    src: url('OTFs/SpireGlyphs.otf'); /*URL to font*/\
+\}\
+\
+@font-face \{\
+    font-family: 'HGInfo'; /*a name to be used later*/\
+    src: url('OTFs/BatuuanHighGalacticInfo.otf'); /*URL to font*/\
+\}\
+\
+\
+\
+\
+\
+#details \{\
+    font-family: 'Inter';\
+    background-color: var(--darkwhite);\
+    margin: auto;\
+    padding: 30px;\
+    max-width: 65%;\
+    align: center;\
+    /* border-radius: 5px; */\
+    text-align: left;\
+\}\
+\
+\
+#details h3 \{\
+    font-family: 'HGBody';\
+font-size:1.5em;\
+\}\
+\
+\
+\
+#details h2 \{\
+    font-family: 'HGBody';\
+font-size:1.5em;\
+\
+\}\
+\
+#details h1 \{\
+    font-family: 'HGBody';\
+font-size:1.75em;\
+\
+\}\
+\
+\
+.batuubesh \{\
+    font-family: 'BatuuBesh';\
+font-size:1.75em;\
+\
+\}\
+\
+.batuuprintshop \{\
+    font-family: 'BatuuPrintshop';\
+font-size:1.75em;\
+\
+\}\
+\
+.batuusignpainter \{\
+    font-family: 'BatuuSignPainter';\
+font-size:1.75em;\
+\
+\}\
+\
+\
+.batuuchalkboard \{\
+    font-family: 'BatuuChalkboard';\
+font-size:1.75em;\
+\
+\}\
+\
+.lenkamok \{\
+    font-family: 'LenkaMok';\
+font-size:1.75em;\
+\
+\}\
+\
+.ohnakahand \{\
+    font-family: 'OhnakaHand';\
+font-size:1.75em;\
+\
+\}\
+\
+.spireglyphs \{\
+    font-family: 'SpireGlyphs';\
+font-size:1.75em;\
+\
+\}\
+\
+.hgbody \{\
+    font-family: 'HGBody';\
+font-size:1.75em;\
+\
+\}\
+\
+.hginfo \{\
+    font-family: 'HGInfo';\
+font-size: 125%;\
+\
+\}\
+\
+\
+\
+\
+\
+\
+\
+.batuubeshfoo \{\
+    font-family: 'BatuuBesh';\
+    color: rgba(0, 0, 0, 0.5);\
+\
+\}\
+\
+.batuuprintshopfoo \{\
+    font-family: 'BatuuPrintshop';\
+    color: rgba(0, 0, 0, 0.5);\
+\
+\}\
+\
+.batuusignpainterfoo \{\
+    font-family: 'BatuuSignPainter';\
+    color: rgba(0, 0, 0, 0.5);\
+\
+\}\
+\
+\
+\
+.batuuchalkboardfoo \{\
+    font-family: 'BatuuChalkboard';\
+    color: rgba(0, 0, 0, 0.5);\
+\
+\}\
+\
+.lenkamokfoo \{\
+    font-family: 'LenkaMok';\
+    color: rgba(0, 0, 0, 0.5);\
+\
+\}\
+\
+.ohnakahandfoo \{\
+    font-family: 'OhnakaHand';\
+    color: rgba(0, 0, 0, 0.5);\
+\
+\}\
+\
+.spireglyphsfoo \{\
+    font-family: 'SpireGlyphs';\
+    color: rgba(0, 0, 0, 0.5);\
+\
+\}\
+\
+.hgbodyfoo \{\
+    font-family: 'HGBody';\
+    color: rgba(0, 0, 0, 0.5);\
+\
+\}\
+\
+.hginfofoo \{\
+    font-family: 'HGInfo';\
+    color: rgba(0, 0, 0, 0.5);\
+\
+\}\
+\
+\
+\
+blockquote \{\
+    float: right;\
+    width: 30%;\
+    font-size: 125%;\
+    margin: 0px 0px 0px 0px;\
+    padding: 10px;\
+\}\
+  \
+larger \{\
+    font-size:1em;\
+\}\
 }
