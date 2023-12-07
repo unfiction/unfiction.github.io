@@ -1467,7 +1467,7 @@ Macro.add('scrolldown', {
   &lt;tr style=&quot;height:175px&quot;&gt;
     &lt;td valign=&quot;top&quot;&gt;&lt;span id=&quot;body&quot;&gt;&lt;&lt;if $player.has( &#39;&lt;&lt;link &quot;Lamp&quot;&gt;&gt;&lt;&lt;if lastVisited(&quot;Dungeon Stairs&quot;) is 0&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampPedestal]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;)&gt;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot; element &quot;span&quot;&gt;&gt;Your lamp throws just enough light into the space to make out this is a courtroom. Your lamp isn&#39;t powerful enough to throw light to the ceiling. Instead, a vast dark void just looms over your head.
     
-    You are standing amidst benches arrayed in an audience facing Northward toward [[the bench and witness stand|Courtroom N]]. There is a closed [[door to the East marked &quot;Anteroom.&quot;|Court Anteroom]]&lt;&lt;/type&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot;&gt;&gt;It&#39;s dark. It&#39;s shapeless. It&#39;s a void. There&#39;s no light at all, save for the pool pouring out from the [[hallway behind you to the West|JailHallway]].
+    You are standing amidst seats arrayed in an audience facing Northward toward [[the bench and witness stand|Courtroom N]]. There is a closed [[door to the East marked &quot;Anteroom.&quot;|Court Anteroom]]&lt;&lt;/type&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot;&gt;&gt;It&#39;s dark. It&#39;s shapeless. It&#39;s a void. There&#39;s no light at all, save for the pool pouring out from the [[hallway behind you to the West|JailHallway]].
 
 You can&#39;t make out any details in the inky blackness. Some sort of light could help. If only you could, I don&#39;t know, get a lamp?&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt; 
  &lt;tr style=&quot;height:170px&quot;&gt; &lt;td  valign=&quot;top&quot;&gt;   
@@ -1475,8 +1475,8 @@ You can&#39;t make out any details in the inky blackness. Some sort of light cou
   &lt;/tr&gt;&lt;/table&gt; &lt;&lt;type 30ms skipkey &quot;Control&quot;&gt;&gt;- - - - - - - - - - - - -&lt;&lt;/type&gt;&gt;&lt;table style=&quot;width:100%&quot;&gt;
   &lt;tr&gt;
     &lt;td width=&quot;50%&quot; valign=&quot;top&quot;&gt;&lt;&lt;if $player.has( &#39;&lt;&lt;link &quot;Lamp&quot;&gt;&gt;&lt;&lt;if lastVisited(&quot;Dungeon Stairs&quot;) is 0&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampPedestal]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;)&gt;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot; element &quot;span&quot;&gt;&gt;Items in this area:
-    &lt;&lt;link &quot;Seats&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[SeatsDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;
-     &lt;span class=&#39;auto-update&#39; data-macro=&#39;&lt;&lt;linkedinventory &quot;(Get)&quot; &quot;$maincorrsfloor&quot; &quot;$player&quot;&gt;&gt;&#39;&gt;\
+    /*&lt;&lt;link &quot;Seats&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[SeatsDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;
+     */&lt;span class=&#39;auto-update&#39; data-macro=&#39;&lt;&lt;linkedinventory &quot;(Get)&quot; &quot;$maincorrsfloor&quot; &quot;$player&quot;&gt;&gt;&#39;&gt;\
     &lt;&lt;linkedinventory &quot;(Get)&quot; &quot;$maincorrsfloor&quot; &quot;$player&quot;&gt;&gt;\
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot;&gt;&gt;Items in this area:
     You can see precisely fuck all.&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/td&gt;
@@ -2441,7 +2441,7 @@ You can&#39;t make out any details in the inky blackness. Some sort of light cou
   &lt;/tr&gt;&lt;/table&gt; &lt;&lt;type 30ms skipkey &quot;Control&quot;&gt;&gt;- - - - - - - - - - - - -&lt;&lt;/type&gt;&gt;&lt;table style=&quot;width:100%&quot;&gt;
   &lt;tr&gt;
     &lt;td width=&quot;50%&quot; valign=&quot;top&quot;&gt;&lt;&lt;if $player.has( &#39;&lt;&lt;link &quot;Lamp&quot;&gt;&gt;&lt;&lt;if lastVisited(&quot;Dungeon Stairs&quot;) is 0&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampPedestal]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;)&gt;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot; element &quot;span&quot;&gt;&gt;Items in this area:
-    Approach &lt;&lt;link &quot;The Bench&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[BenchDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;
+    &lt;&lt;link &quot;Approach The Bench&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[BenchDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;
      &lt;span class=&#39;auto-update&#39; data-macro=&#39;&lt;&lt;linkedinventory &quot;(Get)&quot; &quot;$maincorrnfloor&quot; &quot;$player&quot;&gt;&gt;&#39;&gt;\
     &lt;&lt;linkedinventory &quot;(Get)&quot; &quot;$maincorrnfloor&quot; &quot;$player&quot;&gt;&gt;\
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot;&gt;&gt;Items in this area:
