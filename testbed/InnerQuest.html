@@ -726,7 +726,18 @@ color: #a3ff9990;
 
 body {
   overflow: hidden; /* Hide scrollbars */
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript">(function () {
+}
+
+table.center { /* Center Table */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.whitelinks a { font-family:verdana; color:white; text-shadow: 0px 0px 0px #000000; }
+
+.blacklinks a { font-family:verdana; color:#242424; text-shadow: 0px 0px 0px #000000; }
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">(function () {
     // simple-inventory.js, by chapel; for sugarcube 2
     // version 2.3.0
     'use strict';
@@ -3000,17 +3011,16 @@ missing files to proceed.</tw-passagedata><tw-passagedata pid="69" name="TitleIm
 &lt;span id=&quot;softflicker&quot;&gt;&lt;&lt;audio &quot;boot&quot; play&gt;&gt;&lt;&lt;timed 5s&gt;&gt;&lt;&lt;include &quot;TitleImage&quot;&gt;&gt;&lt;table width=&quot;60%&quot; style=&quot;border:0px solid black;margin-left:auto;margin-right:auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;&lt;type 5ms&gt;&gt;&amp;nbsp;&amp;nbsp;(C)opyright Diskcomm Games, 1983 &amp; Thomas Knapp
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Cambridge, Mass.&lt;&lt;/type&gt;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
-&lt;table width=&quot;20%&quot; style=&quot;border:0px solid black;margin-left:auto;margin-right:auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;&lt;type 30ms&gt;&gt;[[(Start New Game)|START]]&lt;&lt;/type&gt;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;&lt;/timed&gt;&gt;&lt;/span&gt;</tw-passagedata><tw-passagedata pid="72" name="DEBUG" tags="Core-Function" position="400,0" size="100,100">&lt;span style=&quot;font-family:verdana; font-size:16px&quot;&gt;
+&lt;table width=&quot;20%&quot; style=&quot;border:0px solid black;margin-left:auto;margin-right:auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;&lt;type 30ms&gt;&gt;[[(Start New Game)|START]]&lt;&lt;/type&gt;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;&lt;/timed&gt;&gt;&lt;/span&gt;</tw-passagedata><tw-passagedata pid="72" name="DEBUG" tags="Core-Function" position="400,0" size="100,100">&lt;span class=&quot;whitelinks&quot; style=&quot;font-family:verdana; font-size:16px; color:white; text-shadow: 0px 0px 0px #000000;&quot;&gt;
 
 &lt;div align=&quot;center&quot;&gt;Debug Menu
-&#39;&#39;InnerQuest&#39;&#39;
-Interactive Fiction Game
+This page is a debug menu used during development of the program - obviously navigating to various passages from this menu will break the narrative continuity of your experience.
 
-[[Run Game from Title Screen|Disclaimer]]
+&lt;span style=&quot;font-family:verdana; font-size:16px; color:white; text-shadow: 0px 0px 0px #000000;&quot;&gt;[[Run Game from Title Screen|Disclaimer]]&lt;/span&gt;
 
 &lt;&lt;link &quot;Debug Act I&quot; &gt;&gt;&lt;&lt;replace &quot;#debugmenu&quot;&gt;&gt;&lt;&lt;include [[Debug Act I]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;  •  &lt;&lt;link &quot;Debug Act II&quot; &gt;&gt;&lt;&lt;replace &quot;#debugmenu&quot;&gt;&gt;&lt;&lt;include [[Debug Act II]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;  •  &lt;&lt;link &quot;Debug Act III&quot; &gt;&gt;&lt;&lt;replace &quot;#debugmenu&quot;&gt;&gt;&lt;&lt;include [[Debug Act III]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;  •  &lt;&lt;link &quot;Debug Finale&quot; &gt;&gt;&lt;&lt;replace &quot;#debugmenu&quot;&gt;&gt;&lt;&lt;include [[Debug Finale]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;/div&gt;
 ----
-&lt;span id=&quot;debugmenu&quot;&gt;&lt;/span&gt;
+&lt;span id=&quot;debugmenu&quot;&gt;&lt;/span&gt;&lt;/span&gt;
 
 
 
@@ -3021,7 +3031,7 @@ Interactive Fiction Game
 
 
 
-</tw-passagedata><tw-passagedata pid="73" name="Disclaimer" tags="Core-Function" position="100,0" size="100,100">&lt;div align=&quot;right&quot;&gt;&lt;span style=&quot;font-family:verdana; font-size:10px&quot;&gt;[[D|DEBUG]]&lt;/span&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="73" name="Disclaimer" tags="Core-Function" position="100,0" size="100,100">&lt;div align=&quot;right&quot;&gt;&lt;span class=&quot;blacklinks&quot; style=&quot;font-family:verdana; font-size:10px&quot;&gt;[[DEBUG]]&lt;/span&gt;&lt;/div&gt;
 
 
 &lt;table width=&quot;45%&quot; style=&quot;border:0px solid black;margin-left:auto;margin-right:auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;&lt;timed 1s&gt;&gt;&lt;div  align=&quot;center&quot;&gt;&lt;span id=&quot;fading&quot; style=&quot;font-family:verdana; font-size:16px&quot;&gt;This experience features mature themes and adult language, as well as discussion of sexual assault, abuse, gaslighting, suicide, nuclear holocaust, violence, and depression. 
@@ -4015,28 +4025,29 @@ Act(s) II: Coming Soon&lt;/div&gt;
 
 &lt;&lt;timed 10s&gt;&gt;&lt;&lt;goto [[DEBUG]]&gt;&gt;&lt;&lt;/timed&gt;&gt;&lt;/span&gt;</tw-passagedata><tw-passagedata pid="217" name="Debug Act I" tags="" position="350,100" size="100,100">&lt;table style=&quot;width:100%&quot;&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;width:50%; padding-left:10px; padding-right:10px&quot;&gt;Act I Key Locations:
 • [[Jail Hallway|JailHallway]]
-• [[Crone&#39;s Roost|Crones Roost]]
-• [[Beginning of Boring Sewer|Post Crone Convo]]
-• [[Boring Sewer G4]]
-• [[Boring Sewer C6]]
-• [[Boring Sewer A4]]
+• [[Dungeon Stairs]] 
 • [[Morgue]] 
+• [[Torture Room]] 
+• [[Crone&#39;s Roost|Crones Roost]]
+• [[Boring Sewer G4]] (Sewer Spawn)
+• [[Boring Sewer C6]] (Stairs to Judge&#39;s Chambers)
+• [[Boring Sewer A4]] (Cell Entrance)
 • [[Rat Kings Lair]] 
-• &lt;&lt;link &quot;Get Lamp&quot; &gt;&gt;&lt;&lt;pickup &#39;$player&#39; &#39;&lt;&lt;link &quot;Lamp&quot;&gt;&gt;&lt;&lt;if lastVisited(&quot;Dungeon Stairs&quot;) is 0&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampPedestal]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;
+                &lt;/td&gt;&lt;td valign=&quot;top&quot; style=&quot;width:50%; padding-left:10px; padding-right:10px&quot;&gt;Obtain Objects for Testing:
+                • &lt;&lt;link &quot;Get Lamp&quot; &gt;&gt;&lt;&lt;pickup &#39;$player&#39; &#39;&lt;&lt;link &quot;Lamp&quot;&gt;&gt;&lt;&lt;if lastVisited(&quot;Dungeon Stairs&quot;) is 0&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampPedestal]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[LampDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;
 • &lt;&lt;link &quot;Get Map&quot; &gt;&gt;&lt;&lt;pickup &#39;$player&#39; &#39;[[Sewer Map]]&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;
-• &lt;&lt;link &quot;Get Map&quot; &gt;&gt;&lt;&lt;pickup &#39;$player&#39; &#39;&lt;&lt;link &quot;Heavy Wooden Gavel&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[GavelDesc]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;
-                &lt;td valign=&quot;top&quot; style=&quot;width:50%; padding-left:10px; padding-right:10px&quot;&gt;&lt;/td&gt;
-&lt;/td&gt;
-  &lt;/tr&gt;&lt;/table&gt;
-  
-  
-  
-  
-  
-  
-  </tw-passagedata><tw-passagedata pid="218" name="Debug Act II" tags="" position="350,125" size="100,100">&lt;table style=&quot;width:100%&quot;&gt;&lt;tr&gt;
+• &lt;&lt;link &quot;Get Gavel&quot; &gt;&gt;&lt;&lt;pickup &#39;$player&#39; &#39;&lt;&lt;link &quot;Heavy Wooden Gavel&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[GavelDesc]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;
+• &lt;&lt;link &quot;Get Sword&quot; &gt;&gt;&lt;&lt;pickup &#39;$player&#39; &#39;&lt;&lt;link &quot;Garnet Sword of Truth&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[GarnetSwordDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</tw-passagedata><tw-passagedata pid="218" name="Debug Act II" tags="" position="350,125" size="100,100">&lt;table style=&quot;width:100%&quot;&gt;&lt;tr&gt;
                 &lt;td valign=&quot;top&quot; style=&quot;width:33%; padding-left:10px; padding-right:10px&quot;&gt;Act II - Holiday Road
-                • [[Act II - Holiday Road - Intro]]&lt;/td&gt;
+                
+                • [[Act Intro|Act II - Holiday Road - Intro]]
+                • [[Home]] (Porch)
+                • [[Road Fork 1]] (ABC or XYZ)
+                • [[Road Fork 2]] (ABC or XYZ)
+                • [[Road Fork 3]] (Rom or Not)
+                • [[Road Fork 4]] (Rom or Not)
+                ----------------
+                • &lt;/td&gt;
                 &lt;td valign=&quot;top&quot; style=&quot;width:33%; padding-left:10px; padding-right:10px&quot;&gt;Act II - Creep&lt;/td&gt;
                 &lt;td valign=&quot;top&quot; style=&quot;width:33%; padding-left:10px; padding-right:10px&quot;&gt;Act II - Psycho Killer&lt;/td&gt;
   &lt;/tr&gt;&lt;/table&gt;</tw-passagedata><tw-passagedata pid="219" name="Debug Act III" tags="" position="350,150" size="100,100"></tw-passagedata><tw-passagedata pid="220" name="Debug Finale" tags="" position="350,175" size="100,100">&lt;table style=&quot;width:100%&quot;&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;width:50%; padding-left:10px; padding-right:10px&quot;&gt;&lt;/td&gt;
@@ -4132,12 +4143,10 @@ You are about to set out on a road trip with a good friend.&lt;&lt;/type&gt;&gt;
 
 Your friend will be coming by the house soon to set out on your adventure.
 
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;&lt;link &#39;Please choose the pronouns of your preferred romantic partner...&#39;&gt;&gt;
+&lt;table class=&quot;center&quot; style=&quot;width:25%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;&lt;link &#39;Please choose the pronouns of your preferred romantic partner...&#39;&gt;&gt;
     &lt;&lt;pronouns&gt;&gt;&lt;&lt;replace &quot;#start&quot;&gt;&gt;
-        
     &lt;&lt;timed 1s&gt;&gt;&lt;div align=&quot;center&quot;&gt;[[(Sit Down on Your Porch and Wait...)|Home]]&lt;/div&gt;&lt;&lt;/timed&gt;&gt;&lt;&lt;/replace&gt;&gt;
-&lt;&lt;/link&gt;&gt;
-&lt;span id=&quot;start&quot;&gt;&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;/span&gt;
+&lt;&lt;/link&gt;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;span id=&quot;start&quot;&gt;&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;/span&gt;
 
 &lt;&lt;pickup &#39;$player&#39; &#39;&lt;&lt;link &quot;Pack of Cigarettes&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[CigPackDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;&gt;&gt;</tw-passagedata><tw-passagedata pid="241" name="Home" tags="Act-Two-Location" position="2300,325" size="100,100">&lt;span id=&quot;softflicker&quot;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot; element &quot;span&quot; &gt;&gt;Your Home&lt;&lt;/type&gt;&gt;&lt;table style=&quot;width:100%&quot;&gt;
   &lt;tr style=&quot;height:100px&quot;&gt;
@@ -4475,15 +4484,7 @@ Your friend will be coming by the house soon to set out on your adventure.
  
 You respond:&lt;&lt;/type&gt;&gt;&lt;table style=&quot;width:100%&quot;&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;width:33%; padding-left:10px; padding-right:10px&quot;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot; element &quot;span&quot;&gt;&gt;&quot;&lt;&lt;link &quot;I’m working on it. I’m not even bringing a pack with me.&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[Home2A]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&quot;&lt;&lt;/type&gt;&gt;&lt;/td&gt;
  &lt;td valign=&quot;top&quot; style=&quot;width:33%; padding-left:10px; padding-right:10px&quot;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot;&gt;&gt;&quot;&lt;&lt;link &quot;Fine. You win. Here’s my last pack. I won’t smoke on the trip.&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[Home2B]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&quot;&lt;&lt;/type&gt;&gt;&lt;/td&gt;
-  &lt;td valign=&quot;top&quot; style=&quot;width:33%; padding-left:10px; padding-right:10px&quot;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot;&gt;&gt;&quot;&lt;&lt;if $homedoubt gt 3&gt;&gt;__==What’s going on here? What&#39;s the meaning of this?==__&lt;&lt;else&gt;&gt;&lt;&lt;link &quot;What’s going on here? What&#39;s the meaning of this?&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[Home2C]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;&lt;/if&gt;&gt;&quot;&lt;&lt;/type&gt;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</tw-passagedata><tw-passagedata pid="271" name="CigPackDescr" tags="Act-Two-Items" position="2200,75" size="100,100">A pack of your preferred brand. There are a few cigarettes left in the soft paper package wrapped in cellophane. &lt;&lt;if $glovebox.has(&#39;&lt;&lt;link &quot;Pack of Cigarettes&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[CigPackDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;)&gt;&gt;Luckily, Phoenix isn&#39;t paying attention as you rummage in the glovebox. You don&#39;t think ?she&lt;&lt;verb &quot;&#39;ll&quot; &gt;&gt; notice if you grab them.&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;
-
-
-
-
-
-
-
-</tw-passagedata><tw-passagedata pid="272" name="LighterDesc" tags="Act-Two-Items" position="2200,100" size="100,100"></tw-passagedata><tw-passagedata pid="273" name="PistolDescr" tags="Act-Two-Items" position="2300,75" size="100,100"></tw-passagedata><tw-passagedata pid="274" name="PhoenixCoatDescr" tags="Act-Two-Items" position="2300,50" size="100,100">&lt;&lt;type 30ms skipkey &quot;Control&quot; element &quot;span&quot; &gt;&gt;Phoenix&#39;s coat is soft and comfortable. It smells just like ?them.
+  &lt;td valign=&quot;top&quot; style=&quot;width:33%; padding-left:10px; padding-right:10px&quot;&gt;&lt;&lt;type 30ms skipkey &quot;Control&quot;&gt;&gt;&quot;&lt;&lt;if $homedoubt gt 3&gt;&gt;__==What’s going on here? What&#39;s the meaning of this?==__&lt;&lt;else&gt;&gt;&lt;&lt;link &quot;What’s going on here? What&#39;s the meaning of this?&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[Home2C]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;&lt;/if&gt;&gt;&quot;&lt;&lt;/type&gt;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</tw-passagedata><tw-passagedata pid="271" name="CigPackDescr" tags="Act-Two-Items" position="2200,75" size="100,100">&lt;&lt;type 30ms skipkey &quot;Control&quot; element &quot;span&quot; &gt;&gt;A pack of your preferred brand. There are a few cigarettes left in the soft paper package wrapped in cellophane. &lt;&lt;if $glovebox.has(&#39;&lt;&lt;link &quot;Pack of Cigarettes&quot;&gt;&gt;&lt;&lt;replace &quot;#response&quot;&gt;&gt;&lt;&lt;include [[CigPackDescr]]&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&#39;)&gt;&gt;Luckily, Phoenix isn&#39;t paying attention as you rummage in the glovebox. You don&#39;t think ?she&lt;&lt;verb &quot;&#39;ll&quot; &gt;&gt; notice if you grab them.&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="272" name="LighterDesc" tags="Act-Two-Items" position="2200,100" size="100,100"></tw-passagedata><tw-passagedata pid="273" name="PistolDescr" tags="Act-Two-Items" position="2300,75" size="100,100"></tw-passagedata><tw-passagedata pid="274" name="PhoenixCoatDescr" tags="Act-Two-Items" position="2300,50" size="100,100">&lt;&lt;type 30ms skipkey &quot;Control&quot; element &quot;span&quot; &gt;&gt;Phoenix&#39;s coat is soft and comfortable. It smells just like ?them.
 
 The pockets contain:
 &lt;span class=&#39;auto-update&#39; data-macro=&#39;&lt;&lt;linkedinventory &quot;(Get)&quot; &quot;$phoenixcoat&quot; &quot;$player&quot;&gt;&gt;&#39;&gt;\
